@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+}
+p:nth-child(even){
+    background-color: rebeccapurple;
+    font-family: 'PT Serif', serif;
+    border: 6px solid indigo;
+}
+    
+p:nth-child(odd){
+        background-color:green;
+        font-family: 'Architects Daughter', cursive;
+       border: 6px solid greenyellow;
+ }
+
+ 

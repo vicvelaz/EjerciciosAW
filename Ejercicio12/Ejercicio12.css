@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #ffc244;
+    font-family: Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+div{
+   text-align: center;
+}
+
+#titulo{
+    margin-top: 145px ;
+}
+
+#subtitulo{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+h1{
+    margin-bottom: 14px;
+}
+
+#madrid{
+    color: #00a082;
+    text-decoration: none;
+}
+
+#flecha{
+    height: 18px;
+    vertical-align: middle;
+}
+
+.imagen{
+    border-radius: 100%;
+    width: 120px;
+    margin: 7px;
+}
+
+.botones{
+    align-items: center;
+    border: 30px;
+}
+
+.enlace{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen:hover{
+    transform: scale(1.15);
+    transition-delay: .1s;
+    transition-duration: .2s;
+}
+

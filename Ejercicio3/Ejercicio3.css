@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    border: 0;
+    /* border: 1px solid red;  */
+}
+
+.ig{
+    height: 85px;
+}
+
+.tw{
+    height: 60px;
+}
+
+.fb{
+    height: 85px;
+    background-color: lightblue;
+}
+
+div{
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 30px;
+}
+
+p{
+    padding: 0;
+}
+
+.p1{
+    float: left;
+    width: 25%;
+}
+
+.p2{
+    float: left;
+    width: 25%;
+}
+
+.p3{
+    float: left;
+    width: 25%;
+}

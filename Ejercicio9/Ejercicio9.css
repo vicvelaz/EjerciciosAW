@@ -1,0 +1,97 @@
+h1{
+    background: rgb(196, 9, 87);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+#boton:hover{
+    background:  rgb(196, 9, 87);
+    color: black;   
+}
+
+#tc{
+   text-align: center;
+   font-style: italic;
+   border:solid lightgray;
+}
+
+
+
+.sinborde{
+    background-color: white;
+}
+
+.tituloTabla{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    background-color: lightgray;
+}
+
+.bg-plum{
+    background-color: plum;
+}
+
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+.bg-gold{
+    background-color: gold;
+}
+
+.bg-goldenrod{
+    background-color: goldenrod;
+}
+
+.bg-orchid{
+    background-color: orchid;
+}
+
+.bg-greenyellow{
+    background-color: greenyellow;
+}
+
+.bg-yellowgreen{
+    background-color: yellowgreen;
+}
+
+.rojo {
+    color:red;
+}
+
+.resaltado {
+    background:lightgray;
+}
+
+img[src$="png"]{
+    background: black;
+}
+
+#tc1{
+    margin-top: 30px;
+    background-color: white;
+}
+
+#tc1 tr:nth-child(even){
+background-color: white;
+}
+
+#tc1 tr:nth-child(odd){
+    background-color: rgb(179, 178, 178);
+}
+
