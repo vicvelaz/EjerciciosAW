@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: arial;
+    color: whitesmoke;
+}
+
+#exterior_box{
+    width: 350px;
+    background-color: silver;
+    padding: 4px;
+    /* 
+    No es necesario porque por defecto se colocan así
+    font-display: flex;
+    flex-direction: column; */
+}
+
+#date{
+    background-color: dimgray;
+    margin-bottom: 5px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.date_element{
+    align-self: center;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#hour{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    background-color: dimgray;
+}
+
+.hour_element{
+    font-size: 80px;
+    align-self: center;
+}
+
+.hour_am_elements{
+    height: 100px;
+    width: 20%;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hour_am_element{
+    align-self: center;
+}

@@ -26,16 +26,16 @@ html{
 }
 
 .botones{
-    margin: 30px;
     width: 100%;
-    /* display: inline-flex; */
-    overflow: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .boton{
     width: 250px;
     margin: 40px 30px;
-    float: left;
 }
 
 .enlace{
